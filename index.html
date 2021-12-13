@@ -9,7 +9,88 @@
 </head>
 
 <body>
+    <div class="head">
+        <p class="head1">
+            <h1>Assignment#08 <br> Dear Students / Brothers. Web and Mobile Application Development, <br> Batch-04 Section-C Requirements:
+            </h1>
+        </p>
+    </div>
+    <hr>
+    <!--------------------------------- Program no 1 ----------------------------------------------->
+    <div>
+        <h1>
+            1. Write a JavaScript function to check whether an `input` is a date object or not.
+        </h1>
+        <p>
+            Test Data :<br> console.log(is_date("October 13, 2014 11:13:00"));<br> console.log(is_date(new Date(86400000)));<br> console.log(is_date(new Date(99,5,24,11,33,30,0)));<br> console.log(is_date([1, 2, 4, 0]));<br> Output :<br> false
+            <br> true
+            <br> true
+            <br> false
+            <br>
+        </p>
+        <p>the result shown in console</p>
+    </div>
+    <hr>
+    <!--------------------------------- Program no 2 ----------------------------------------------->
+    <div>
+        <h1>
+            2. Write a JavaScript function to get the current date.
+        </h1>
+        <p>
+            Note : Pass a separator as an argument. <br> Test Data : <br> console.log(curday('/')); <br> console.log(curday('-')); <br> Output : <br> "11/13/2014" <br> "11-13-2014" <br>
+        </p>
+    </div>
+    <hr>
+    <!--------------------------------- Program no 3 ----------------------------------------------->
+    <div>
+        <h1>
+            3. Write a JavaScript function to get the number of days in a mon
+        </h1>
+        <p>
+            Test Data :<br> console.log(getDaysInMonth(1, 2012));<br> console.log(getDaysInMonth(2, 2012));<br> console.log(getDaysInMonth(9, 2012));<br> console.log(getDaysInMonth(12, 2012));<br> Output :<br> 31
+            <br> 29
+            <br> 30
+            <br> 31
+            <br>
 
+        </p>
+    </div>
+    <hr>
+    <!--------------------------------- Program no 4 ----------------------------------------------->
+    <div>
+        <h1>
+            4. Write a JavaScript function to get the month name from a particular date.
+        </h1>
+        <p>
+            Test Data :<br> console.log(month_name(new Date("10/11/2009")));<br> console.log(month_name(new Date("11/13/2014")));<br> Output :<br> "October"
+            <br> "November"
+            <br>
+
+        </p>
+    </div>
+    <hr>
+    <!--------------------------------- Program no 5 ----------------------------------------------->
+    <div>
+        <h1>
+            5. Write a JavaScript function to compare dates (i.e. greater than, less than or equal to)
+        </h1>
+        <p>
+            Test Data :<br> console.log(compare_dates(new Date('11/14/2013 00:00'), new Date('11/14/2013 00:00')));<br> console.log(compare_dates(new Date('11/14/2013 00:01'), new Date('11/14/2013 00:00')));<br> console.log(compare_dates(new Date('11/14/2013
+            00:00'), new Date('11/14/2013 00:01')));<br> Output :<br> "Date1 = Date2"<br> "Date1 > Date2"<br> "Date2 > Date1"<br>
+
+        </p>
+    </div>
+    <hr>
+    <!--------------------------------- Program no 5 ----------------------------------------------->
+    <div>
+        <h1>
+            6. Write a JavaScript function to add specified minutes to a Date object.
+        </h1>
+        <p>
+            Test Data :<br> console.log(add_minutes(new Date(2014,10,2), 30).toString());<br> Output :<br> "Sun Nov 02 2014 00:30:00 GMT+0530 (India Standard Time)"<br>
+        </p>
+    </div>
+    <script src="/script.js"></script>
 </body>
 
 </html>
